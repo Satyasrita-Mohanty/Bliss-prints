@@ -1,0 +1,449 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+nav{
+    padding: 0;
+    margin: 0;
+
+}
+ .navigationBarMobile{
+    display: block;
+}
+.navigationBarDesktop{
+    display: none;
+}
+.navigationBarMobile .navLink{
+    font-size: 12px !important;
+    padding: 0px !important;
+     color:  #060506;
+}
+.navigationBarMobile .navLink:hover{
+     color:  #060506;
+}
+.jumbotron-header {
+ 
+ padding: 5px 0px;   
+ text-align: center;
+  top: 0px;
+  right: 0;
+  left: 0;
+  width: 100%;
+    background-color:  #060506;
+}
+.jumbotron-headerMobile{
+       background-color:  #ffffff;
+}
+.menuIcon{
+    margin-left: -7px;
+}
+.mobileNavbar{
+    margin-left: 15px;
+}
+.navLink{
+    color:  #ffffff;
+     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;  
+    padding: 0px 10px;
+}
+.navLink:hover{
+    text-decoration: none;
+     color:  #ffffff;
+    
+}
+.navLink1{
+    color:  #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 14px;  
+    padding: 0px 5px;
+}
+.navLink1:hover{
+    text-decoration: none;
+     color:  #ffffff;   
+}
+.navLink11{
+    margin-left: -18px;
+}
+
+.navLinkStyle{
+    list-style-type: none;
+}
+.container-2{
+    background-color: #e9b30e;
+    width: 100%;
+    padding: 15px 0px;
+}
+.signLink{
+    color: #060506;
+     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;  
+    padding: 0px 14px;
+}
+.signLink:hover{
+    text-decoration: none;
+     color: #060506;    
+}
+.signCotainer{
+    text-align: right;
+    margin-top: -24px;
+}
+.container-1{
+    width: 100%;
+    padding: 25px 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+.menuLink{
+    color: #060506;
+     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 6px;
+    
+}
+.menuLink:hover{
+    text-decoration: none;
+    color: #e9b30e;
+}
+.dropDownLink{
+    color: #060506;
+     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.dropDownLink:hover{
+    color: #e9b30e;
+    text-decoration: none;
+    background-color: transparent;
+}
+.dropDownLink:focus{
+    color: #e9b30e;
+    text-decoration: none;
+    background-color: transparent;
+}
+.logoImage{
+        width: 120%;
+}
+.catagory{
+     text-align: center;
+     margin: 0px auto;
+     color: #000000;
+     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.catagory:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.catagoryCnt{
+    background-color: #e9b30e;
+    padding: 10px;
+}
+.catagoryProduct{
+     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:  #808080;
+    font-size: 10px;
+    margin: 4px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dropdown:hover .dropdown-menu{
+  display: block!important;
+}
+.dropright .dropdown-menu{
+    border: 1px solid  #e9b30e;
+    left: 105%;
+}
+.catagoryProduct:hover{
+    text-decoration: none;
+    color: #e9b30e;
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 100px 0px !important;
+    margin: 0px;
+}
+ .container{
+    max-width: 1240px;    
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Roboto', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+.logoName{
+  text-align: left !important;  
+    margin-bottom: -31px;
+    margin-left: 13px;
+}
+.logoHeading{
+  text-align: left !important;
+  color: #e9b30e;
+  font-size:22px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+    font-weight: bold;
+}
+.logoHeading:hover{
+    color: #e9b30e;
+    text-decoration: none;
+}
+.firstRow{
+    text-align: center;
+}
+.sideImg1{
+    max-width: 80%;
+}
+.imgCorner{
+   border-radius: 10px; 
+}
+.imgCorner:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.firstRowSubHead{
+  color: #e9b30e;
+  font-size:20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; 
+  letter-spacing: 2px;
+}
+.firstRow{
+    margin-top: 30px;
+}
+.firstRowHead{
+  color: #000000;
+  font-size:26px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px; 
+}
+.smallText{
+  color:  #a6a6a6;
+  font-size:16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+.discover{
+    color: #ffffff;
+    background-color: #e9b30e;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.discover:hover{
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #e9b30e;
+    text-decoration: none;
+}
+.discoverButton{
+   margin: 20px 0px; 
+}
+.firstRow .card-body{
+    background-color: #e9b30e;
+    padding: 8px;
+}
+.firstRow .card:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shopNow{
+    color: #ffffff;
+  font-size:20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none; 
+}
+.shopNow:hover{
+    color: #ffffff;
+    text-decoration: none; 
+}
+.firstRow .card-body:hover{
+   color: #000000;
+   border:1px solid rgba(0,0,0,.125);
+    background-color: transparent;
+}
+.firstRow .card-body:hover .shopNow{
+   color: #000000;
+    background-color: transparent;
+}
+.bannerImage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+    
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+    .navLink{
+        font-size: 14px;
+    }
+     .menuLink{
+        font-size: 10px;
+    }
+  
+    .catagoryProduct{
+        font-size: 8px;
+    }
+
+
+}
+
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    .nav-item{
+        padding: 8px 0px;
+    }
+    .logoImage{
+        width: 150%;
+    }
+      .nav-item{
+        padding: 8px 0px;
+    }
+    .catagoryProduct{
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  
+    .navigationBarDesktop{
+         display: block;
+    }
+    .navigationBarMobile{
+        display: none;
+    }
+     .navigationBarDesktop{
+         display: block;
+    }
+    .menuLink{
+       font-size: 9px;
+    }
+   
+    .catagoryProduct{
+        font-size: 12px;
+    }
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .navLink{
+        font-size: 14px;
+    }
+    .navLink1{
+        font-size: 11px;
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+   
+    .menuLink{
+       font-size: 10px;
+    }
+    .catagoryProduct{
+        font-size: 13px;
+    }
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+     .menuLink{
+       font-size: 14px;
+         padding: 14px;
+    }
+    .dropDownLink{
+         font-size: 13px;
+    }
+    .catagoryProduct{
+        margin: 2px 0px;
+    }
+
+}
