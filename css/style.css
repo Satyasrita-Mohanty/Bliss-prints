@@ -434,6 +434,47 @@ nav{
     color: #e9b30e;
     font-size: 11px;
 }
+.greyhr{
+   padding: 10px 0px;
+    width: 85%
+}
+.searchButton{
+    background-color: #e9b30e;
+    color: #ffff;
+}
+.smallImage{
+   width: 90%;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 100px; 
+  background: rgb(0, 0, 0);
+  background: transparent; /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 14px;
+  text-align: center;
+}
+.overlayCnt:hover .overlay {
+  opacity: 1;
+}
+.discoverAdd{
+    background-color: #000000 !important;
+    font-size: 13px !important;
+}
+.discoverAdd:hover{
+    background-color:  #000000;
+    color: #ffffff;
+    border: none;
+}
 
 
 
